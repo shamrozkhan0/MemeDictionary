@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.meme-element{
+ width: 500px;
+ height: 500px;
+    transition: all ease 1s;
+}
+
+.parent-element h1{
+text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .meme-element{
+        width: 350px;
+        height: 350px;
+}
+       
+}
+
+
+
+
+
+
+
